@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quiz Bíblico ao Vivo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>Quiz Bíblico ao Vivo</h1>
+
+    <div class="row">
+      <input id="nome" placeholder="Seu nome" maxlength="24" />
+      <button id="btnSalvar">Salvar</button>
+    </div>
+
+    <section id="statusBox" class="box">
+      Carregando status...
+    </section>
+
+    <div class="row">
+      <button id="btnEntrar" class="primary" disabled>Entrar no Quiz</button>
+      <button id="btnRanking" disabled>Ver Ranking</button>
+    </div>
+
+    <p class="hint">
+      Dica: o quiz só libera dentro do horário do evento.  
+      Ranking ordena por <b>score</b> e desempata por <b>tempo</b>.
+    </p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

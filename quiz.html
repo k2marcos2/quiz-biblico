@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1 id="title">Quiz</h1>
+    <div class="box">
+      <div><b>Tempo:</b> <span id="timer">00:00</span></div>
+      <div><b>Pergunta:</b> <span id="count">0/0</span></div>
+    </div>
+
+    <section id="qBox" class="box"></section>
+
+    <div class="row">
+      <button id="btnPrev" disabled>Voltar</button>
+      <button id="btnNext" class="primary" disabled>Próxima</button>
+    </div>
+
+    <div class="row">
+      <button id="btnFinish" class="primary" disabled>Finalizar e Enviar</button>
+    </div>
+
+    <section id="msg" class="hint"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

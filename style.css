@@ -1,0 +1,16 @@
+:root { font-family: system-ui, Arial; }
+body { background:#0b0f14; color:#e6edf3; margin:0; display:flex; min-height:100vh; align-items:center; justify-content:center; }
+.card { width:min(720px, 92vw); background:#111827; border:1px solid #223047; border-radius:16px; padding:18px; box-shadow: 0 10px 30px rgba(0,0,0,.35); }
+h1 { margin:0 0 12px 0; font-size:22px; }
+.box { background:#0f172a; border:1px solid #24324a; border-radius:12px; padding:12px; margin:10px 0; }
+.row { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-top:10px; }
+input { flex:1; min-width:220px; background:#0b1220; border:1px solid #223047; color:#e6edf3; padding:10px 12px; border-radius:10px; outline:none; }
+button, .btn { border:1px solid #2b3b58; background:#0b1220; color:#e6edf3; padding:10px 12px; border-radius:10px; cursor:pointer; text-decoration:none; display:inline-flex; align-items:center; justify-content:center; }
+button.primary { background:#1f6feb; border-color:#1f6feb; }
+button:disabled { opacity:.55; cursor:not-allowed; }
+.hint { opacity:.85; font-size:13px; margin-top:12px; line-height:1.35; }
+.opt { display:block; padding:10px; border:1px solid #2b3b58; border-radius:10px; margin:8px 0; cursor:pointer; }
+.opt input { margin-right:8px; }
+table { width:100%; border-collapse:collapse; }
+td, th { border-bottom:1px solid #24324a; padding:8px; text-align:left; font-size:14px; }
+.small { opacity:.8; font-size:12px; }
